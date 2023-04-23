@@ -13,7 +13,7 @@ fun main() {
     println(floatNum1 / floatNum2)
     println(floatNum1 % floatNum2)
     val c = x + floatNum1
-    println(c::class.simpleName)
+    println(c::class.simpleName) // какой класс (тип) значения
     val c1 = x + doubleNum
     println(c1::class.simpleName)
     var a = 5
